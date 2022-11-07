@@ -1,6 +1,5 @@
 var http = require('http');
-var dt= require('./miprimermodulo')
-
+var dt= require('./components/miprimermodulo')
 
 http.createServer(function(req, res){
     res.writeHead(200, {'Content-Type': 'text/html'});
